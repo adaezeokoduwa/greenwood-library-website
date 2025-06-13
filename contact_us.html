@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Greenwood Community Library</title>
+  <style>
+    body {
+      font-family: 'Verdana', sans-serif;
+      background-color: #fdfcfb;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #457b9d;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    form {
+      margin-top: 30px;
+    }
+
+    label {
+      display: block;
+      margin: 12px 0 4px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #1d3557;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #16324f;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Greenwood Community Library</h1>
+  </header>
+
+  <main>
+    <p>
+      We'd love to hear from you! Whether you have questions about our services, events, or library membership, 
+      feel free to reach out using the form below or visit us in person during our working hours.
+    </p>
+
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+
+</body>
+</html>
