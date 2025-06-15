@@ -27,5 +27,35 @@ This capstone project involves simulating the contributions of two team members:
 ## ⚙️ Setup Instructions
 
 ### 1. Create a GitHub Repository
-- Go to [GitHub](https://github.com) and create a new repository named:
+- Go to [GitHub](https://github.com) and create a new repository named: greenwood-library-website
+- Initialize it with a `README.md` file.
+- Clone the repository to your local machine:
+```bash
+git clone https://github.com/your-username/greenwood-library-website.git
+cd greenwood-library-website
+```
+## 🧱 Initial Project Structure
+
+### 2. Basic Web Pages Added
+
+In the **main** branch:
+
+1. Opened the project in **Visual Studio Code**.
+2. Created the following HTML files:
+   - `home.html`
+   - `about_us.html`
+   - `events.html`
+   - `contact_us.html`
+3. Added ramdon text to each files
+
+### 3. Commit Initial Files
+
+After saving all the files, I opened the terminal and ran the following Git commands:
+
+```bash
+git add .
+git commit -m "Add base HTML pages"
+git push -u origin main
+```
+
 
