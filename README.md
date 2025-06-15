@@ -128,5 +128,11 @@ git push -u origin
 6. Once the changes are approved, clicked **Merge pull request**.
 7. Finally, click **Confirm merge** to integrate the branch into the main codebase.
 
+## ✅ Final Step: Pull Merged Changes
+After all PRs are merged:
+```
+git checkout main
+git pull origin main
+```
 
 
