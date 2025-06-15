@@ -27,9 +27,9 @@ This capstone project involves simulating the contributions of two team members:
 ## ⚙️ Setup Instructions
 
 ### 1. Create a GitHub Repository
-- Go to [GitHub](https://github.com) and create a new repository named: greenwood-library-website
+- Go to [GitHub](https://github.com) and created a new repository named: greenwood-library-website
 - Initialize it with a `README.md` file.
-- Clone the repository to your local machine:
+- Clone the repository to the local machine: Vscode
 ```bash
 git clone https://github.com/your-username/greenwood-library-website.git
 cd greenwood-library-website
@@ -67,14 +67,14 @@ git push -u origin main
    ```bash
 git clone https://github.com/your-username/greenwood-library-website.git
 ```
-4. Open your terminal and run the following command to create a new branch and switch to it:
+4. Open the terminal and run the following command to create a new branch and switch to it:
 
 ```bash
 git checkout -b add-book-reviews
 ```
-5. Create a new HTML file named book_reviews.html in your project directory and added randome text
+5. Created a new HTML file named book_reviews.html in your project directory and added randome text
 
-💾 Step 2: Commit and Push Changes
+## 💾 Step 2: Commit and Push Changes
 Run the following commands to stage the new file, commit the changes, and push the new branch to GitHub:
 
 ```
@@ -92,5 +92,41 @@ git push origin add-book-reviews
 5. Clicked **Create pull request** to submit it for review.
 6. Once the changes are approved, clicked **Merge pull request**.
 7. Finally, click **Confirm merge** to integrate the branch into the main codebase.
+
+
+# 🗓️ Jamie's Task: Updating Events Page
+
+## ✅ Step 1: Create and Switch to a New Branch
+1. Created a folder on my local terminal
+2. Opened it on Vscode
+3. Clone the repository
+   ```bash
+git clone https://github.com/your-username/greenwood-library-website.git
+```
+4. Open the terminal and run the following command to create a new branch and switch to it:
+
+```bash
+git checkout -b update-events-page
+```
+5. Modify events.html, Edit events.html with random updated event content
+
+## 💾 Step 2: Commit and Push Changes
+Run the following commands to stage the new file, commit the changes, and push the new branch to GitHub:
+
+```
+git add book_reviews.html
+git commit -m "Update events page with upcoming community events"
+git push -u origin
+
+## 🔁 Step 3: Create a Pull Request (PR)
+
+1. Went back to the GitHub repository on the web.
+2. Located the `add-book-reviews` branch.
+3. Clicked **Compare & pull request** next to the branch name.
+4. Entered a **title** and a **description** for the pull request explaining the changes made.
+5. Clicked **Create pull request** to submit it for review.
+6. Once the changes are approved, clicked **Merge pull request**.
+7. Finally, click **Confirm merge** to integrate the branch into the main codebase.
+
 
 
